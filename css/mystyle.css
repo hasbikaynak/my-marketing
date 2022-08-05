@@ -1,0 +1,76 @@
+.bg-dark-blue{
+    background-color: #073b4c;
+}
+
+/* I can override some styles of bootstrap */
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 2em;
+}
+
+/* @media  is used to put screen size condition
+when screen size is small then rotate 0 =>768
+screen size is bigger than small rotate 25 */
+
+@media(min-width: 768px){
+    .img1{
+        transform: rotate(25deg);
+        margin-top: 10%;
+        margin-bottom: 5%;
+        width: 90%;
+    }
+}
+
+@media(max-width: 767px){
+    .img1{
+        transform: rotate(0deg);
+        width: 90%;
+    }
+}
+
+.slogan{
+    font-family: 'Ubuntu';
+    font-size: 2em;
+    line-height: 1.5;
+    margin: 10%;
+}
+
+.download-links{
+    margin-left: 20%;
+    justify-content: center;
+    display: flex;
+}
+
+.fa-solid{
+    color: gold;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.comment{
+    padding: 15%;
+
+}
+
+.comment p{
+font-size: 1.5em;
+}
+
+.pricing{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(64, 90, 175);
+}
+
+.footer{
+    color: white;
+    background-color: grey;
+    padding: 30px;
+}
+
+.copyright{
+    margin-left: 60%;
+    font-size: 20px;
+    position: relative;
+}
